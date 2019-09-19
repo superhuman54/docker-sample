@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER korea lee <lee@korea.com>
+MAINTAINER kihwan kim <superhuman54@gmail.com>
 RUN apt-get update
 RUN apt-get install -y nginx
 RUN echo "\ndaemon off;" >> /etc/nginx/nginx.conf
